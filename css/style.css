@@ -14,6 +14,20 @@ body {
     
 }
 
+.positive {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    margin-top: 70px;
+    width: 5%;
+    border-radius: 6px 6px 0 0;
+    background-color: rgb(153, 6, 6);
+    color: white;
+
+
+}
+
 .battery {
     display: flex;
     flex-direction: column;
@@ -23,13 +37,13 @@ body {
     border: 1px solid rgb(151, 3, 3);
     border-radius: 5px;
     flex-wrap: wrap;
-    margin: 50px auto;
 
 }
 .charge-discharge{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .charge {
